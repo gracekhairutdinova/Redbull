@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0 80px;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    display: table; 
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-menu {
+   float: right;
+}
+
+.header-menu ul {
+    display: table;
+    clear: both;
+}
+
+.header-menu ul li {
+    float: left;
+    color: white;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 22px 20px;
+}
+
+.header-content {
+    width: 100%;
+    background: rgba(0,0,0,0.4) !important;
+}
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+}
+.bx-wrapper {
+    background: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    -moz-box-shadow: 0 0 5px #00000000;
+    box-shadow: 0 0 5px #00000000 !important;
+}
+.my-slider {
+    display: table;
+    clear: both;
+}
+
+.first-slide {
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+.slider-description {
+    width: 35%;
+    padding: 60px 2% 60px 8%;
+    float: left;
+}
+
+.slider-description h1 {
+    color: white;
+}
+
+.slider-description h2 {
+    color: #CA99EC;
+}
+
+.slider-description p {
+    color: white;
+}
+
+.slider-photo {
+    width: 25%;
+    padding: 0 15%;
+    float: right;
+}
