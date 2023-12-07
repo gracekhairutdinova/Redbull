@@ -1,0 +1,183 @@
+@media (max-width: 1024px) {
+    .header-container {
+        width: 90%;
+    }
+    .header-menu ul li {
+        padding: 22px 15px;
+    }
+    .slider-container {
+        width: 90%;
+    }
+
+    .about-company-container {
+        width: 90%;
+    }
+    .about-company-button {
+        width: 45%; 
+        margin: 0 5% 0 50%;
+    }
+
+    .my-slider-list-container {
+        width: 90%;
+    }
+    .list-button {
+        width: 40%; 
+        margin: 0 25% 0 35%;
+    }
+
+    .slider-carousel-container {
+        width: 80%;
+    }
+
+    .content-container {
+        width: 90%;
+    }
+    .footer-menu-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        width: 95%;
+    }
+    .header-logo {
+        width: 23%;
+    }
+    .header-menu {
+        width: 75%;
+        font-size: 15px;
+    }
+    .header-menu ul li {
+        padding: 22px 10px;
+    }
+    .slider-photo {
+        width: 35%;
+        padding: 0 10%;
+        margin-top: 25px;
+    }
+
+    .about-company-container {
+        width: 95%;
+    }
+    .about-company-container>div {
+        width: 28%;
+        padding-left: 5%;
+    }
+
+    .my-slider-list-container {
+        width: 95%;
+    }
+
+    .my-slider-container {
+        width: 50%;
+    }
+    
+    .my-list {
+        width: 40%;
+    }
+    .list-button {
+        width: 50%; 
+        margin: 0 20% 0 30%;
+    }
+
+    .slider-carousel-container {
+        width: 90%;
+    }
+
+    .content-container {
+        width: 95%;
+    }
+    .footer-menu-container {
+        width: 95%;
+    }
+    .footer-menu-container ul li {
+        font-size: 14px;
+    }
+    .footer-menu-container p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-container {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .header-logo {
+        width: 25%;
+    }
+    .header-logo img {
+        width: 100%;
+    }
+    .header-menu {
+        width: 40%;
+        font-size: 12px;
+    }
+    .header-menu ul li {
+        font-size: 16px;
+        padding: 14px 5px;
+        float: none;
+    }
+    .header-menu ul li:hover:before {
+        position: absolute; top: 35px; left: 6px;
+        
+    }
+    .slider-description {
+        width: 35%;
+        padding: 60px 2% 60px 8%;
+        float: left;
+    }
+    .slider-description h1 {
+        font-size: 20px;
+    }
+    .slider-description h2 {
+        font-size: 16px;
+    }
+    .slider-description p {
+        font-size: 14px;
+    }
+    .slider-photo {
+        width: 35%;
+        padding: 0 10%;
+        margin-top: 40px;
+    }
+
+    .about-company-container>div {
+        width: 60%;
+        float: none;
+        padding: 20px 20%;
+    }
+
+    .my-slider-container {
+        width: 70%;
+        margin: 0 10% 0 20%;
+        float: none;
+    }
+
+    .my-list {
+        width: 60%;
+        margin: 50px 15% 30px 25%;
+        float: none;
+    }
+
+    .slider-carousel-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content-container>div {
+        width: 60%;
+        float: none;
+        padding: 20px 20%;
+    }
+
+    .footer-menu-container ul li {
+        float: none;
+        font-size: 16px;
+    }
+    .footer-menu-container p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/* Header */
+header {
+    background-image: url("../img/bg.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0 80px;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    display: table; 
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.header-menu ul {
+    display: table;
+    clear: both;
+}
+
+.header-menu ul li {
+    float: left;
+    color: white;
+    list-style-type: none;
+    text-shadow: -3px 0px 2px #7d7e80;
+    text-transform: uppercase;
+    padding: 22px 20px;
+    position: relative;
+}
+
+.header-menu ul li:hover:before {
+    content: '';
+    position: absolute; top: 45px; left: 23px;
+    width: 40px;
+    height: 2px;
+    background: #CA99EC;
+}
+
+/* Header content */
+.header-content {
+    background: rgba(0,0,0,0.4);
+}
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+}
+.slider-container>.bx-wrapper {
+    background: rgba(0, 0, 0, 0) !important;
+    border: none !important;
+    -moz-box-shadow: 0 0 5px #00000000;
+    box-shadow: 0 0 5px #00000000 !important;
+}
+
+.first-slide .two-slide{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+.slider-description {
+    width: 35%;
+    padding: 60px 2% 60px 8%;
+}
+
+.slider-description h1, p {
+    color: white;
+}
+
+.slider-description h2 {
+    color: #CA99EC;
+}
+
+.slider-photo {
+    width: 25%;
+    padding: 0 15%;
+}
+
+/* Main */
+
+/* About company */
+.about-company {
+    background: rgb(129,68,162);
+    background: linear-gradient(180deg, rgba(129,68,162,1) 0%, rgba(99,9,121,1) 35%, rgba(48,11,87,1) 100%);
+    padding: 50px 0 40px;
+}
+
+.about-company-container {
+    width: 80%;
+    margin: auto;
+    clear: both;
+    display: table;
+}
+
+.about-company-container>div {
+    width: 25%;
+    float: left;
+    padding-left: 7%;
+}
+
+.about-company-icon {
+    /* width: 45px; */
+    color: white;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+/* 
+.about-company-description {
+    position: relative;
+} */
+
+.about-company-container h2 {
+    color: white;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-company-container p {
+    color: white;
+}
+
+.about-company-button {
+    width: 35%; 
+    margin: 0 10% 0 55%;
+}
+.about-company-button button {
+    color: white;
+    background: rgba(137, 43, 226, 0);
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.about-company-button button:hover {
+    text-shadow: -3px 0px 2px #7d7e80;
+}
+
+/* Slider & List */
+.my-slider-list-container {
+    width: 80%;
+    padding-top: 50px;
+    margin: auto;
+    display: table;
+    clear: both;
+}
+
+/* My slider */
+.my-slider-container {
+    width: 45%;
+    position: relative;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute; 
+    bottom: -15px; 
+    right: 10px;
+    border-top: 20px solid #ffffff;
+}
+
+.my-slider-container>.bx-wrapper {
+    border: none !important;
+    -moz-box-shadow: 0 0 5px #ffffff;
+    -webkit-box-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 0 5px #ffffff !important;
+}
+
+.my-slider-container>.bx-wrapper .bx-prev {
+    background: #ffffff00 !important;
+}
+
+.my-slider-container>.bx-wrapper .bx-next {
+    background: #ffffff00 !important;
+}
+
+.slide-container {
+    padding: 0 30px 20px;
+}
+
+.my-slide {
+    padding: 0 38px 38px;
+    box-shadow: 0px 10px 5px 0px rgba(230, 230, 230, 0.74);
+    position: relative;
+}
+
+.user-icon {
+    width: 45px;
+    position: absolute; top: 0; left: -10px;
+}
+
+.slide-title {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* My list */
+.my-list {
+    width: 40%;
+    position: relative;
+}
+
+.list-title {
+    text-transform: uppercase;
+    position: absolute; top: 0; left: -50px;
+}
+
+.list {
+    padding-top: 30px;
+}
+
+.list ul li { 
+    padding: 10px 20px;
+    list-style-type: none;
+    position: relative;
+}
+
+.list ul li:before {
+    content: url(../img/post-img.png);
+    position: absolute; top: 3; left: -50px;
+}
+
+.list-button {
+    width: 30%; 
+    margin: 0 30% 0 40%;
+}
+
+.list-button button {
+    color: black;
+    background: white;
+    text-transform: uppercase;
+}
+
+/* My slider carousel */
+.my-slider-carousel {
+    border-top: 2px solid rgba(230, 230, 230, 0.74);
+}
+
+.slider-carousel-container {
+    width: 60%;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.slider-carousel-container>.bx-wrapper {
+    -moz-box-shadow: 0 0 5px #cccccc00;
+    -webkit-box-shadow: 0 0 5px #cccccc00;
+    box-shadow: 0 0 5px #cccccc00 !important;
+}
+
+.slider-carousel-container>.bx-wrapper {
+    border: none !important;
+}
+
+.slider-carousel-container>.bx-wrapper .bx-prev {
+    background: #ffffff00 !important;
+}
+
+.slider-carousel-container>.bx-wrapper .bx-next {
+    background: #ffffff00 !important;
+}
+
+.slider-carousel-container>.bx-wrapper .bx-pager.bx-default-pager a  {
+    background: #ffffff00 !important;
+}
+
+/* Footer */
+.footer-content {
+    background: #B7B2BA;
+}
+
+.content-container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: table;
+    clear: both;
+}
+
+.content-container>div {
+    width: 25%;
+    float: left;
+    padding-left: 7%;
+}
+
+.content-title {
+    text-transform: uppercase;
+    font-size: 27px;
+}
+
+.content-description {
+    color: black;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.footer-menu {
+    background-image: url(../img/bg-footer.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0;
+}
+
+.footer-menu-container {
+    width: 80%;
+    margin: auto;
+    display: table;
+    clear: both;
+}
+
+.footer-menu-container ul {
+    display: table;
+    clear: both;
+}
+
+.footer-menu-container ul li {
+    float: left;
+    color: white;
+    list-style-type: none;
+    padding: 10px;
+    text-transform: uppercase;
+    text-shadow: -3px 0px 2px #7d7e80;
+}
+
+.footer-menu-container p {
+    padding: 10px;
+}
